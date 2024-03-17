@@ -3,11 +3,11 @@ import pandas as pd
 import shutil
 
 # Load the spreadsheet into a pandas DataFrame
-spreadsheet_path = '/Users/aditya/Documents/ADNI1_Complete_3Yr_3T_2_07_2024.csv'  # Update with your spreadsheet path
+spreadsheet_path = ''  # Update with your spreadsheet path
 df = pd.read_csv(spreadsheet_path)  # Use read_csv for CSV files
 
 # Path to the main folder containing patient subfolders
-main_folder = '/Users/aditya/Documents/Anya Inspirit AI data/ADNI 3 Yr 3T'  # Update with your main folder path
+main_folder = ''  # Update with your main folder path
 
 def organize_folders(subject, group):
     subject_folder_path = os.path.join(main_folder, subject)
